@@ -11,7 +11,7 @@ def load_data(dataset):
     df = pd.read_csv(dataset)
     return df
 
-st.sidebar.image('diabets.jpg',width=200)
+st.sidebar.image('diabets.jpeg',width=200)
 def main():
     st.markdown("<h1 style='text-align:center;color: brown;'>Streamlit Diabetis App</h1>",unsafe_allow_html=True)
     st.markdown("<h2 style='text-align:center;color: black;'>Diabetis study in Cameroon</h2>",unsafe_allow_html=True)
